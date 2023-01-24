@@ -22,4 +22,4 @@ ru
 
 
 
-by shakal. Ver. alpha 1.22
+by shakal. Ver. alpha 1

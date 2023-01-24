@@ -1,0 +1,16 @@
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.exe
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.deps.json
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.runtimeconfig.json
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.runtimeconfig.dev.json
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.dll
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\ref\NoCheatsGD-alpha1.dll
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\bin\Release\net5.0\NoCheatsGD-alpha1.pdb
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.csproj.AssemblyReference.cache
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.AssemblyInfoInputs.cache
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.AssemblyInfo.cs
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.csproj.CoreCompileInputs.cache
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.dll
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\ref\NoCheatsGD-alpha1.dll
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.pdb
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-alpha1\obj\Release\net5.0\NoCheatsGD-alpha1.genruntimeconfig.cache

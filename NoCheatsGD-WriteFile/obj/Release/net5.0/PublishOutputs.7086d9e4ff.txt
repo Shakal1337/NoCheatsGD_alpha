@@ -1,0 +1,5 @@
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-WriteFile\bin\Release\net5.0\publish\NoCheatsGD-WriteFile.exe
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-WriteFile\bin\Release\net5.0\publish\NoCheatsGD-WriteFile.dll
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-WriteFile\bin\Release\net5.0\publish\NoCheatsGD-WriteFile.deps.json
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-WriteFile\bin\Release\net5.0\publish\NoCheatsGD-WriteFile.runtimeconfig.json
+C:\Users\1337\source\repos\NoCheatsGD-alpha1\NoCheatsGD-WriteFile\bin\Release\net5.0\publish\NoCheatsGD-WriteFile.pdb

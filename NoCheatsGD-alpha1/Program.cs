@@ -134,6 +134,7 @@ namespace NoCheatsGD_alpha1
                 {
                     Console.WriteLine($"\n{e.Message}");
                     Console.WriteLine("Press any key to close...");
+                    Console.ReadKey();
                 }
 
             }

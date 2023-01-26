@@ -13,8 +13,9 @@ namespace NoCheatsGD_alpha1
             string programdatafloderCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha";
             string ProgramDataFloderResultCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result";
             string txtprogramddataCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\path.txt";
+            string gdbotname = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
 
-            string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\replay-bot.dll";
+            string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\" + gdbotname;
 
             string ProgramDataFloderResultGDHMMoveSetingsMod1 = @"C:\ProgramData\NoCheatsGD-Alpha\result\bypass.json";
             string ProgramDataFloderResultGDHMMoveSetingsMod2 = @"C:\ProgramData\NoCheatsGD-Alpha\result\player.json";
@@ -36,6 +37,8 @@ namespace NoCheatsGD_alpha1
             bool txtsearch = File.Exists(txtprogramddataCreateSetings);
             bool gdhmmodsearch = File.Exists(ProgramDataFloderResultGDHMMoveSetingsMod4);
             bool gdbotsearch = File.Exists(ProgramDataFloderResultBotMoveSetings);
+
+
             if (txtsearch)
             {
 

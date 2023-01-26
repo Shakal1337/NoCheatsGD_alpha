@@ -9,8 +9,8 @@ en
 
 ru
 
-1)Запустить NoCheatsGD alpha дождаться сообщения "floder not found , and create again." и нажать любую кнопку.
-2)запустить NoCheatsGD-WriteFile  и следовать инструкции в консоли.
+1)Р—Р°РїСѓСЃС‚РёС‚Рµ NoCheatsGD alpha Рё РїРѕРґРѕР¶РґРёС‚Рµ СЃРѕРѕР±С‰РµРЅРёСЏ: "floder not found , and create again." Рё РЅР°Р¶РјРёС‚Рµ Р»СЋР±СѓСЋ РєРЅРѕРїРєСѓ.
+2)Р—Р°РїСѓСЃС‚РёС‚Рµ NoCheatsGD-WriteFile Рё РґРµСЃС‚РІСѓРµС‚Рµ РёРЅСЃС‚СЂСѓРєС†РёСЏРј РІ РєРѕРЅСЃРѕР»Рё.
 
 
 

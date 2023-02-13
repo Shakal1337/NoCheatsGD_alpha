@@ -17,8 +17,10 @@ namespace NoCheatsGD_alpha1
             string programdatafloderCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha";
             string ProgramDataFloderResultCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result";
             string txtprogramddataCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\path.txt";
-            string gdbotname = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
-            string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\" + gdbotname;
+            //string gdbotname = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
+            //string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\" + gdbotname;
+            bool txtsearch = File.Exists(txtprogramddataCreateSetings);
+
 
             // path to mods in .json format. at the moment, all that are present in gdhm
             string ProgramDataFloderResultGDHMMoveSetingsMod1 = @"C:\ProgramData\NoCheatsGD-Alpha\result\bypass.json";
@@ -38,14 +40,15 @@ namespace NoCheatsGD_alpha1
             // checking the existence of the root folder and the existence of the file path.txt
             bool filesearch = File.Exists(programdatafloderCreateSetings);
             bool filesearchresult = File.Exists(ProgramDataFloderResultCreateSetings);
-            bool txtsearch = File.Exists(txtprogramddataCreateSetings);
+            //bool txtsearch = File.Exists(txtprogramddataCreateSetings);
             bool gdhmmodsearch = File.Exists(ProgramDataFloderResultGDHMMoveSetingsMod4);
-            bool gdbotsearch = File.Exists(ProgramDataFloderResultBotMoveSetings);
+            //bool gdbotsearch = File.Exists(ProgramDataFloderResultBotMoveSetings);
 
 
             if (txtsearch) // existence check path.txt
             {
-
+                string gdbotname = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
+                string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\" + gdbotname;
                 Console.WriteLine("\nwhat .dll files is going to disable");
                 Console.WriteLine("bot:GDbot. core:Core gdhm. res: restore all.");
                 string MainCoreEngine = Console.ReadLine();
@@ -57,6 +60,7 @@ namespace NoCheatsGD_alpha1
                             {
                                 string gdbotsource = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(0);
                                 string gdbotsourcename = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
+                                bool gdbotsearch = File.Exists(ProgramDataFloderResultBotMoveSetings);
                                 File.Move(gdbotsource + gdbotsourcename, ProgramDataFloderResultBotMoveSetings);
                                 Console.WriteLine("Copmlete!");
                                 Console.WriteLine("Press any key to close");
@@ -86,6 +90,10 @@ namespace NoCheatsGD_alpha1
 
                         case "res":
                             {
+                                string gdbotsourceCASERES = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(0);
+                                string gdbotsourcenameCASERES = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
+                                bool gdbotsearchCASERES = File.Exists(ProgramDataFloderResultBotMoveSetings);
+
                                 string gdbotsourceres = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(0);
                                 string gdbotsourcename = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
                                 string gdhmsource = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(2);
@@ -109,7 +117,7 @@ namespace NoCheatsGD_alpha1
                                     Console.WriteLine("\nPress any key to continue...");
                                     Console.ReadKey();
                                 }
-                                if (gdbotsearch)
+                                if (gdbotsearchCASERES)
                                 {
                                     File.Move(ProgramDataFloderResultBotMoveSetings, gdbotsourceres + gdbotsourcename);
                                     Console.WriteLine("\nRestore bot copmlete !");

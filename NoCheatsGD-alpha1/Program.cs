@@ -7,16 +7,20 @@ namespace NoCheatsGD_alpha1
     {
         static void Main(string[] args)
         {
+            //   by shakal1337 InS.
+            // contacts: InS.Network.Help@outlook.com 
+            // thanks for using <3
             Console.WriteLine("welcom");
             Console.WriteLine("to NoCheatsGD alpha");
 
+            // root folder paths and reading bot name
             string programdatafloderCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha";
             string ProgramDataFloderResultCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result";
             string txtprogramddataCreateSetings = @"C:\ProgramData\NoCheatsGD-Alpha\path.txt";
             string gdbotname = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
-
             string ProgramDataFloderResultBotMoveSetings = @"C:\ProgramData\NoCheatsGD-Alpha\result\" + gdbotname;
 
+            // path to mods in .json format. at the moment, all that are present in gdhm
             string ProgramDataFloderResultGDHMMoveSetingsMod1 = @"C:\ProgramData\NoCheatsGD-Alpha\result\bypass.json";
             string ProgramDataFloderResultGDHMMoveSetingsMod2 = @"C:\ProgramData\NoCheatsGD-Alpha\result\player.json";
             string ProgramDataFloderResultGDHMMoveSetingsMod3 = @"C:\ProgramData\NoCheatsGD-Alpha\result\global.json";
@@ -24,14 +28,14 @@ namespace NoCheatsGD_alpha1
             string ProgramDataFloderResultGDHMMoveSetingsMod5 = @"C:\ProgramData\NoCheatsGD-Alpha\result\creator.json";
             string ProgramDataFloderResultGDHMMoveSetingsMod6 = @"C:\ProgramData\NoCheatsGD-Alpha\result\variables.json";
 
-
+            // name mods
             string ModBypass = "bypass.json";
             string ModPlayer = "player.json";
             string ModGlobal = "global.json";
             string ModCore = "core.json";
             string ModCreator = "creator.json";
             string ModVB = "variables.json";
-
+            // checking the existence of the root folder and the existence of the file path.txt
             bool filesearch = File.Exists(programdatafloderCreateSetings);
             bool filesearchresult = File.Exists(ProgramDataFloderResultCreateSetings);
             bool txtsearch = File.Exists(txtprogramddataCreateSetings);
@@ -39,15 +43,15 @@ namespace NoCheatsGD_alpha1
             bool gdbotsearch = File.Exists(ProgramDataFloderResultBotMoveSetings);
 
 
-            if (txtsearch)
+            if (txtsearch) // existence check path.txt
             {
 
                 Console.WriteLine("\nwhat .dll files is going to disable");
                 Console.WriteLine("bot:GDbot. core:Core gdhm. res: restore all.");
                 string MainCoreEngine = Console.ReadLine();
-                try
+                try // error processing
                 {
-                    switch (MainCoreEngine)
+                    switch (MainCoreEngine) // body of code
                     {
                         case "bot":
                             {
@@ -86,7 +90,7 @@ namespace NoCheatsGD_alpha1
                                 string gdbotsourcename = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(1);
                                 string gdhmsource = File.ReadLines(txtprogramddataCreateSetings).ElementAtOrDefault(2);
 
-                                if (gdhmmodsearch)
+                                if (gdhmmodsearch)// condition cascade
                                 {
                                     File.Move(ProgramDataFloderResultBotMoveSetings, gdbotsourceres + gdbotsourcename);
                                     File.Move(ProgramDataFloderResultGDHMMoveSetingsMod1, gdhmsource + ModBypass);
@@ -142,7 +146,7 @@ namespace NoCheatsGD_alpha1
 
             }
 
-            else   ////
+            else // path.txt file not found
             {
                 Console.WriteLine("floder not found , and create again.");
                 if (filesearch)
